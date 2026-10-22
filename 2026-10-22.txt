@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 日報 2026-10-22</title><style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#1d2433;--mute:#6b7385;--acc:#4f46e5;--ds:#d97706}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:linear-gradient(135deg,#312e81,#4f46e5);color:#fff;padding:28px 20px}header .w,main{max-width:1100px;margin:0 auto}
+header h1{margin:0;font-size:26px}header .d{opacity:.85}.must{background:rgba(255,255,255,.14);border-radius:10px;padding:14px 16px;margin-top:14px}
+main{padding:10px 20px 40px}h2{font-size:20px;margin:28px 0 12px}h2 small{background:#e0e7ff;color:var(--acc);border-radius:99px;padding:1px 9px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{background:var(--card);border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.07);border-top:3px solid #c7d2fe;display:flex;flex-direction:column}
+.card.hot{border-top-color:#ef4444}.card h3{margin:0 0 8px;font-size:16px}.card p{margin:8px 0;font-size:14px;flex:1}
+.tag{display:inline-block;font-size:12px;background:#eef2ff;color:var(--acc);border-radius:6px;padding:1px 7px;margin:0 5px 4px 0}.tag.ds{background:#fef3c7;color:var(--ds)}
+.links a{font-size:13px;color:var(--acc);text-decoration:none;margin-right:12px}.links a:hover{text-decoration:underline}
+.note{color:var(--mute);font-size:13px;margin-top:10px}code{background:#f1f5f9;padding:0 4px;border-radius:4px}footer{text-align:center;color:var(--mute);font-size:12px;padding:20px}
+</style></head><body><header><div class="w"><h1>AI 日報</h1><div class="d">2026-10-22（週四） · 台北時間 · 10 則</div><div class="must"><b>🔥 今日必讀：</b>Microsoft <b>Contact Center Intelligence</b> 公開預覽——Customer Assist／QA agent 掛到既有聯絡中心（open connector），不必整套換平台。對 Omnichat 是最直接的大廠客服 Agent 產品對標。同日 <b>Mistral Voxtral 3</b> 語音 agent SDK，以及 <b>OpenAI 模型進 Google Cloud Model Garden</b>（Astra／Sol／Luna + Codex）。</div></div></header><main>
+<section><h2>🧠 模型發布 <small>1</small></h2><div class="grid">
+<article class="card hot"><h3>緊急：OpenAI 明天（10/23）下架舊 snapshot</h3><div class="tags"><span class="tag">OpenAI</span><span class="tag">API</span><span class="tag">待辦</span></div><p>明日關掉 <code>gpt-4o-2024-05-13</code>、<code>gpt-4.1-nano</code>、<code>o4-mini</code>、<code>o1</code>／<code>o3-mini</code>、<code>gpt-4-turbo</code>、<code>gpt-3.5-turbo-0125</code> 等。請今天掃完寫死的 model ID。今日無全新 frontier 權重發布。</p><div class="links"><a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noopener">下架公告 ↗</a></div></article>
+</div></section>
+<section><h2>🛠️ 新工具與產品 <small>5</small></h2><div class="grid">
+<article class="card hot"><h3>Microsoft Contact Center Intelligence</h3><div class="tags"><span class="tag">客服</span><span class="tag">Agent</span><span class="tag">Omnichat</span></div><p>10/21 公開預覽：Customer Assist／QA／（即將）Operations；open connector 接既有聯絡中心；語音生物辨識；Agent 365 治理；Copilot Credits。大廠「加 Agent 不必換平台」敘事。</p><div class="links"><a href="https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/21/microsoft-contact-center-intelligence-transforming-customer-experience-at-agentic-speed/" target="_blank" rel="noopener">Microsoft 公告 ↗</a></div></article>
+<article class="card hot"><h3>Mistral Voxtral 3 語音 Agent</h3><div class="tags"><span class="tag">語音</span><span class="tag">客服</span><span class="tag">SDK</span></div><p>聽→推理／tool→說單一管線；SIP／WebRTC；50+ 語轉寫、sub-500ms realtime；EU／自架。聯絡中心語音通道直接相關。</p><div class="links"><a href="https://mistral.ai/news/voxtral-3/" target="_blank" rel="noopener">Mistral ↗</a><a href="https://docs.mistral.ai/studio/audio/voice-agents/overview" target="_blank" rel="noopener">文件 ↗</a></div></article>
+<article class="card hot"><h3>OpenAI 模型進 Google Cloud</h3><div class="tags"><span class="tag">OpenAI</span><span class="tag">GCP</span><span class="tag">企業</span></div><p>GPT-6 Astra／Sol／Luna + Codex 進 Model Garden（私有預覽）；Marketplace 計費、可吃 commitment。Microsoft 仍為主要雲端夥伴。</p><div class="links"><a href="https://openai.com/index/openai-models-google-cloud" target="_blank" rel="noopener">OpenAI ↗</a><a href="https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers" target="_blank" rel="noopener">Google Cloud ↗</a></div></article>
+<article class="card"><h3>Claude Duet 主動式個人 Agent</h3><div class="tags"><span class="tag">Anthropic</span><span class="tag">Agent</span></div><p>10/21 研究預覽：早報、背景 VM、敏感動作需核准；美區 Pro／Max 候補。個人助理路線，可觀察審批／背景執行設計。</p><div class="links"><a href="https://claude.com/resources/articles/claude-duet" target="_blank" rel="noopener">Anthropic ↗</a></div></article>
+<article class="card"><h3>NVIDIA OpenShell 參考架構</h3><div class="tags"><span class="tag">NVIDIA</span><span class="tag">Agent 安全</span></div><p>GTC Berlin：安全 runtime + Rubin／Vera／BlueField Sentry，毫秒級隔離。SAP、ServiceNow 等對齊。大量 agent 部署的圍籬參考。</p><div class="links"><a href="https://nvidianews.nvidia.com/news/openshell-reference-architecture" target="_blank" rel="noopener">NVIDIA ↗</a></div></article>
+</div>
+<p class="note">aihero.dev／learn.duotify.com／learn.chatgpt.com：無過去 24–48h 可驗證新文。</p>
+</section>
+<section><h2>🔬 研究動態 <small>0</small></h2>
+<p class="note">過去約 24 小時無特別值得單獨成則的新論文。昨日 ALTK-Evolve（客服 playbook／τ²-bench）仍值得回看。</p>
+</section>
+<section><h2>🏛️ 產業與政策 <small>0</small></h2>
+<p class="note">今日無獨立重大政策新稿；OpenAI×GCP 可視為封閉模型多雲供應再鬆動一格（見上方產品則）。</p>
+</section>
+<section><h2>⭐ 指定來源精選 <small>3</small></h2><div class="grid">
+<article class="card hot"><h3>Will 保哥：Ollama Cloud Token 用量</h3><div class="tags"><span class="tag ds">指定來源</span><span class="tag">Will 保哥</span><span class="tag">用量</span></div><p>10/21：Chat Completions 串流需 <code>include_usage</code>，勿因空 choices 丟掉 usage；Responses 從 <code>response.completed</code> 讀 <code>input_tokens</code>／<code>output_tokens</code>。</p><div class="links"><a href="https://blog.miniasp.com/post/2026/10/21/ollama-cloud-streaming-token-usage" target="_blank" rel="noopener">原文 ↗</a></div></article>
+<article class="card"><h3>Matt Pocock：軟體三階</h3><div class="tags"><span class="tag ds">指定來源</span><span class="tag">Matt Pocock</span></div><p>個人→內部→對外；找真實使用者回饋。「AI 沒改變這件事」——難的仍是流程與品質。</p><div class="links"><a href="https://x.com/mattpocockuk/status/2112880319934165307" target="_blank" rel="noopener">主帖 ↗</a></div></article>
+<article class="card"><h3>@karpathy：RL 短評</h3><div class="tags"><span class="tag ds">指定來源</span><span class="tag">Karpathy</span></div><p>回覆稱 RL 已大致奏效，無獨立產品／論文發布。</p><div class="links"><a href="https://x.com/karpathy/status/2112763753754485205" target="_blank" rel="noopener">帖文 ↗</a></div></article>
+</div>
+<p class="note">Will Facebook：瀏覽器讀取中／公開預覽可能受登入牆限制；今日指定來源以部落格新文為主。aihero／duotify／learn.chatgpt：無 24–48h 可驗證新文。</p>
+</section>
+</main><footer>資料截至 2026-10-22 約 08:45（台北時間） · 紅色上框是今日重點 · 橘色標籤是指定來源</footer></body></html>
